@@ -225,7 +225,7 @@
 		width: calc(100% + 2px);
 		margin: 0 -1px;
 		flex: 1 0 auto;
-		height: 25px;
+
 		// display: none;
 
 
@@ -241,6 +241,7 @@
 			border-top: 0;
 			border-bottom: 0;
 			display: flex;
+			height: 25px;
 
 			.comparison__link {
 				pointer-events: none;
