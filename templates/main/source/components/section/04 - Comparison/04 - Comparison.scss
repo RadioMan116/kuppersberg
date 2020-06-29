@@ -246,6 +246,7 @@
 			.comparison__link {
 				pointer-events: none;
 				display: block;
+
 			}
 		}
 
@@ -271,6 +272,7 @@
 		position: relative;
 		display: none;
 		text-decoration: none !important;
+		width: 100%;
 
 		&.active {
 			pointer-events: none;
