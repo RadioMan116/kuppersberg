@@ -1093,8 +1093,13 @@
 			font-family: Arial, sans-serif;
 			font-size: 12px;
 			line-height: 20px;
-			width: calc(100%);
+			width: calc(100% - 18px);
 			flex-grow: 1;
+		}
+
+		.modal__close {
+			top: 8px;
+			right: 8px;
 		}
 	}
 

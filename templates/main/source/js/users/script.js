@@ -1398,10 +1398,10 @@ $(document).ready(function () {
 					e.stopPropagation();
 
 					if ($(this).hasClass("down")) {
-						$(ul).slideUp(200);
+						// $(ul).slideUp(200);
 						$(this).removeClass("down");
 					} else {
-						$(ul).slideDown(200);
+						// $(ul).slideDown(200);
 						$(this).addClass("down");
 					}
 
