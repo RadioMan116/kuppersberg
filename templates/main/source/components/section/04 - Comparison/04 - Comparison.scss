@@ -175,7 +175,7 @@
 		height: 25px;
 		max-height: 50px;
 		max-height: 30px;
-		margin: 16px 0 0;
+		margin: 0px 0 18px;
 		// background: white;
 		border-radius: 2px;
 		flex-direction: column;
@@ -185,7 +185,7 @@
 		background: white;
 
 		&.triangle {
-			background: url("https://icongr.am/entypo/triangle-down.svg") white calc(100% - 10px) 5px/15px no-repeat;
+			background: url("https://icongr.am/entypo/triangle-down.svg") white calc(100% - 10px) 8px/15px no-repeat;
 		}
 
 		&:hover {
@@ -222,8 +222,9 @@
 		background: white;
 		z-index: 99;
 		display: flex;
-
+		width: calc(100% + 2px);
 		margin: 0 -1px;
+		flex: 1 0 auto;
 		// display: none;
 
 
@@ -260,7 +261,7 @@
 	}
 
 	&__link {
-		padding: 0px 14px;
+		padding: 3px 12px;
 		color: #2e2e2e;
 		font-family: Arial, sans-serif;
 		font-size: 14px;

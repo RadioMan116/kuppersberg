@@ -53,7 +53,7 @@
 
 	&__aside {
 		border-radius: 3px;
-		background-color:#666666;
+		background-color: #666666;
 
 		padding: 32px 65px 32px 32px;
 		max-width: 572px;
@@ -85,14 +85,14 @@
 			// margin-bottom: 91px;
 			// width: 470px;
 			color: #ffffff;
-			font-family: Arial,sans-serif;
+			font-family: Arial, sans-serif;
 			font-size: 13px;
 			line-height: 22px;
 		}
 	}
 
 	.breadcrumbs {
-		width: 100%;
+		width: fit-content;
 		font-size: 12px;
 		font-weight: normal;
 		font-style: normal;
@@ -102,13 +102,27 @@
 		color: #ffffff;
 		margin-bottom: 10px;
 		margin-top: 25px;
+		border-radius: 2px;
+		background: rgba(0, 0, 0, 0.21);
+		padding: 0 11px;
 
 		div {
 			align-items: center;
 		}
 
 		a {
-			color: #ffffff;
+			// color: #ffffff;
+
+			color: #fff;
+		}
+
+
+		&__link {
+			color: #fff;
+		}
+
+		&__text {
+			font-weight: 700;
 		}
 	}
 
@@ -132,7 +146,7 @@
 		}
 
 		.navchain {
-			font-family: Arial,sans-serif;
+			font-family: Arial, sans-serif;
 			font-size: 12px;
 			line-height: 24px;
 			margin-top: 146px;
