@@ -56,6 +56,19 @@
 		margin-bottom: 40px;
 	}
 
+	h5 {
+		color: #333333;
+		font-family: "Roboto Condensed";
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 28px;
+
+		b {
+			color: $base;
+			line-height: inherit;
+		}
+	}
+
 	b {
 		width: 100%;
 		margin-bottom: 13px;
@@ -147,10 +160,10 @@
 		z-index: 99;
 		list-style: disc;
 		color: #333333;
-			font-family: Arial,
+		font-family: Arial,
 			sans-serif;
-			font-size: 14px;
-			line-height: 22px;
+		font-size: 14px;
+		line-height: 22px;
 		text-align: left;
 		color: #333333;
 		padding-left: 0;
@@ -190,6 +203,68 @@
 		font-size: 14px;
 		font-weight: 700;
 		line-height: 22px;
+	}
+
+	blockquote {
+		padding: 24px;
+		background-color: #f8f8f8;
+		margin-bottom: 2rem;
+
+		b {
+
+			width: 100%;
+			margin-bottom: 13px;
+			color: #333333;
+			font-family: "Roboto Condensed";
+			font-size: 18px;
+			font-weight: 700;
+			line-height: 24px;
+			text-align: left;
+			color: #333333;
+			margin-top: 18px;
+		}
+
+		p {
+			margin: 0 0 14px;
+
+			b {
+				font-size: inherit;
+				line-height: inherit;
+			}
+		}
+
+		strong {
+			margin-bottom: 15px;
+			display: block;
+		}
+
+		ul {
+			li {
+				color: #ba1212;
+				margin-left: 16px;
+
+				p {
+					margin: 0;
+				}
+			}
+		}
+
+		&.column {
+			display: flex;
+			flex-wrap: wrap;
+
+			ul {
+				width: 33%;
+			}
+
+			.time {
+				margin-top: 14px;
+
+				br {
+					display: none;
+				}
+			}
+		}
 	}
 
 
@@ -416,7 +491,8 @@
 					transform: scale(1.1);
 				}
 			}
-			picture{
+
+			picture {
 				min-height: 340px;
 			}
 		}
@@ -450,6 +526,12 @@
 			padding-top: 0;
 		}
 
+		h5 {
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 24px;
+		}
+
 		p {
 			font-size: 14px;
 			line-height: 22px;
@@ -468,7 +550,7 @@
 		}
 
 		b {
-			display: block;
+			// display: block;
 			width: 100%;
 			margin-bottom: 11px;
 			font-size: 16px;
@@ -546,7 +628,8 @@
 					margin: 0 0 0px !important;
 					height: auto !important;
 				}
-				picture{
+
+				picture {
 					min-height: 100%;
 				}
 			}
@@ -631,6 +714,28 @@
 
 			a {
 				margin-top: 22px;
+			}
+
+			&.column {
+				ul {
+					width: 100%;
+					margin-bottom: 0;
+
+					&:last-of-type {
+						margin-bottom: 16px;
+					}
+				}
+
+				.time {
+					b {
+						display: block;
+
+					}
+
+					br {
+						display: block;
+					}
+				}
 			}
 		}
 
