@@ -22,11 +22,13 @@
 
 	&__col {
 		width: 25%;
-		flex-basis: 250px;
+		flex-basis: 360px;
+		display: flex;
+		flex-wrap: wrap;
 		// flex-grow: 1;
 
 		.menu-footer__item {
-			width: 85%;
+			width: 50%;
 			cursor: pointer;
 			font-family: Arial, sans-serif;
 			font-size: 13px;
@@ -37,7 +39,7 @@
 
 		&:nth-child(2) {
 			width: 39%;
-			flex-basis: 326px;
+			flex-basis: 390px;
 			// flex-grow: 1;
 			// margin-left: auto;
 
@@ -166,6 +168,7 @@
 
 	.menu-footer {
 		&__title {
+			width: 100%;
 			font-size: 18px;
 			font-weight: 400;
 			line-height: 36px;
@@ -191,7 +194,8 @@
 			margin: 0;
 			padding: 0;
 			list-style-type: none;
-
+			display: flex;
+			flex-wrap: wrap;
 		}
 	}
 
