@@ -45,6 +45,10 @@
 
 			.price__absolute {
 				top: 23px;
+
+				&:before {
+					bottom: 12px;
+				}
 			}
 		}
 	}
