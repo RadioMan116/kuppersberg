@@ -297,6 +297,7 @@
 	&__checkbox {
 		display: flex;
 		flex-wrap: wrap;
+		align-items: baseline;
 
 		label,
 		a {
