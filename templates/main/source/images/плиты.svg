@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="24" viewBox="0 0 25 24">
+  <defs>
+    <rect id="плиты-b" width="18" height="7" x="3" y="9"/>
+    <filter id="плиты-a" width="155.6%" height="242.9%" x="-27.8%" y="-57.1%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.733333333   0 0 0 0 0   0 0 0 0 0  0 0 0 0.251311189 0"/>
+    </filter>
+    <circle id="плиты-d" cx="3" cy="3" r="1"/>
+    <filter id="плиты-c" width="600%" height="600%" x="-250%" y="-200%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.733333333   0 0 0 0 0   0 0 0 0 0  0 0 0 0.404747596 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1)">
+    <rect width="23" height="21" x=".5" y=".5" stroke="#000"/>
+    <rect width="24" height="1" y="5" fill="#000"/>
+    <rect width="24" height="1" y="17" fill="#000"/>
+    <use fill="#000" filter="url(#плиты-a)" xlink:href="#плиты-b"/>
+    <rect width="17" height="6" x="3.5" y="9.5" fill="#D0021B" fill-opacity=".149" stroke="#B00" stroke-linejoin="square"/>
+    <rect width="20" height="1" x="2" y="7" fill="#000"/>
+    <circle cx="14" cy="3" r="1" fill="#000"/>
+    <circle cx="11" cy="3" r="1" fill="#000"/>
+    <circle cx="6" cy="3" r="1" fill="#000"/>
+    <use fill="#000" filter="url(#плиты-c)" xlink:href="#плиты-d"/>
+    <use fill="#B00" xlink:href="#плиты-d"/>
+    <circle cx="20" cy="3" r="1" fill="#000"/>
+    <circle cx="5.5" cy="19.5" r="1" fill="#000"/>
+    <circle cx="18.5" cy="19.5" r="1" fill="#000"/>
+    <circle cx="17" cy="3" r="1" fill="#000"/>
+    <rect width="18" height="1" x="3" y="11" fill="#B00" fill-opacity=".25"/>
+    <rect width="18" height="1" x="3" y="13" fill="#B00" fill-opacity=".25"/>
+    <rect width="4" height="1" x="3" y="23" fill="#000"/>
+    <rect width="4" height="1" x="17" y="23" fill="#000"/>
+  </g>
+</svg>
