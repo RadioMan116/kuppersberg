@@ -436,6 +436,18 @@
 		margin-bottom: 30px;
 	}
 
+	.warranty__map {
+		height: 440px;
+
+		&-point {
+			display: none;
+		}
+
+		* {
+			transition: none !important;
+		}
+	}
+
 	.tags__status {
 		width: 100%;
 		height: auto;
@@ -897,7 +909,8 @@
 			margin-bottom: 20px;
 		}
 
-		.maps iframe {
+		.maps iframe,
+		.warranty__map {
 			max-height: 260px;
 		}
 
