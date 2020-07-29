@@ -757,6 +757,7 @@ $(document).ready(function () {
 
 
 	})()
+	$(" .catalog__prop .link-pop-glossary").addClass("js-link-pop-glossary");
 
 	$(".catalog__prop .js-link-pop-glossary").hover(function () {
 
