@@ -827,10 +827,11 @@ $(document).ready(function() {
 			}
 		});
 		(() => {
-			if ($('.catalog .js-recently-watched').length) {
+			let check = document.querySelector('.catalog .js-recently-watched')
+			if (check) {
 				$('.col-md-3 .sidebar').css('padding-bottom', '400px')
 			}
-		})()
+		})();
 	}
 	if (windowWidth2 <= 767) {
 		$('.logo').appendTo('.header__block_top .container');
