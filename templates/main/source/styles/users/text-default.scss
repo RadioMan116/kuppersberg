@@ -26,7 +26,6 @@
 		margin-bottom: 16px;
 		margin-top: 0.83em;
 
-
 		b {
 			margin: 0;
 		}
@@ -43,7 +42,6 @@
 		font-size: 20px;
 		font-weight: 400;
 		line-height: 28px;
-
 	}
 
 	h4 {
@@ -108,7 +106,6 @@
 				text-align: left;
 				color: #262626;
 			}
-
 		}
 
 		span {
@@ -134,12 +131,10 @@
 
 		// img {
 		// 	margin: 0 auto;
-
 		// 	&:nth-last-child(2):first-child,
 		// 	&:nth-last-child(2):first-child~img {
 		// 		color: green;
 		// 	}
-
 		// }
 		img {
 			margin-right: 0;
@@ -147,9 +142,6 @@
 			margin-bottom: 0px;
 		}
 	}
-
-
-
 
 	ol {
 		color: #333333;
@@ -185,7 +177,6 @@
 		// li:first-child {
 		// 	margin-top: 16px;
 		// }
-
 		b {
 			margin-bottom: 6px
 		}
@@ -205,7 +196,6 @@
 		li {
 			margin-bottom: 2px;
 		}
-
 	}
 
 	li {
@@ -234,7 +224,6 @@
 		margin-bottom: 2rem;
 
 		b {
-
 			width: 100%;
 			margin-bottom: 13px;
 			color: #333333;
@@ -263,7 +252,7 @@
 
 		ul {
 			li {
-				color: #394791;
+				color: $base;
 				margin-left: 16px;
 
 				p {
@@ -313,7 +302,6 @@
 				font-size: 12px;
 				font-weight: 700;
 				padding: 11px 7px 13px;
-
 			}
 		}
 
@@ -370,7 +358,6 @@
 	// 	// flex-wrap: wrap;
 	// 	// justify-content: center;
 	// }
-
 	.table {
 		width: 100%;
 		margin-bottom: 22px;
@@ -397,7 +384,6 @@
 					text-align: right;
 					padding-right: 50px;
 				}
-
 			}
 		}
 	}
@@ -427,7 +413,6 @@
 			margin-top: 18px;
 		}
 	}
-
 
 	.maps {
 		padding-top: 18px;
@@ -468,9 +453,7 @@
 		display: block;
 	}
 
-
 	&.seo-text {
-
 		h2 {
 			color: #262626;
 			font-size: 26px;
@@ -494,7 +477,6 @@
 
 		p {
 			margin-bottom: 10px;
-
 		}
 
 		img {
@@ -502,7 +484,6 @@
 		}
 
 		// .official-dealers__link
-
 		&__link {
 			width: calc(50%-16px);
 			display: flex;
@@ -514,7 +495,6 @@
 
 			&:nth-of-type(1) {
 				margin-right: 29px;
-
 			}
 
 			&:after {
@@ -564,7 +544,6 @@
 		display: none;
 	}
 
-
 	.pic_left {
 		float: left;
 		margin: 5px 25px 20px 0;
@@ -577,7 +556,6 @@
 
 	.table_delivery {
 		tr {
-
 			td:last-child {
 				b {
 					font-family: Arial;
@@ -587,9 +565,7 @@
 				}
 			}
 
-
 			td {
-
 				padding: 11px 7px 13px;
 
 				&[colspan="2"] {
@@ -598,8 +574,6 @@
 						font-weight: 700;
 					}
 				}
-
-
 			}
 		}
 	}
@@ -637,14 +611,12 @@
 		p {
 			font-size: 14px;
 			line-height: 22px;
-
 			margin-bottom: 24px;
 
 			&+table+p {
 				margin-top: 16px;
 				margin-bottom: 35px;
 			}
-
 
 			&:last-child {
 				margin-bottom: 0;
@@ -673,7 +645,6 @@
 			margin-bottom: 0;
 
 			li {
-
 				margin-left: 25px;
 				line-height: 21px;
 			}
@@ -695,7 +666,6 @@
 		}
 
 		&.seo-text {
-
 			h2 {
 				color: #262626;
 				font-size: 22px;
@@ -729,7 +699,6 @@
 
 				&:nth-of-type(1) {
 					margin-right: 0px;
-
 				}
 
 				.official-dealers__pic {
@@ -784,21 +753,18 @@
 				.mobile {
 					display: none;
 				}
-
 			}
 		}
 
-
 		tr {
-
 			&:first-child {
 				td {}
 			}
 		}
 
 		td {
-			// width: 50% !important;
 
+			// width: 50% !important;
 			&:first-child {
 				width: 170px !important;
 				padding-left: 0;
@@ -838,7 +804,6 @@
 					text-align: left;
 					width: unset !important;
 
-
 					&:first-child {
 						margin-bottom: 10px;
 					}
@@ -856,7 +821,6 @@
 			width: 100%;
 			display: block;
 			overflow-y: auto;
-
 			// &__delivery,
 			// &__cost {
 			// 	width: 100%;
@@ -877,7 +841,6 @@
 				}
 			}
 
-
 			a {
 				margin-top: 22px;
 			}
@@ -895,7 +858,6 @@
 				.time {
 					b {
 						display: block;
-
 					}
 
 					br {
@@ -954,9 +916,7 @@
 						}
 					}
 				}
-
 			}
-
 		}
 
 		.seo-text__button {
@@ -1008,7 +968,6 @@
 					left: 80px;
 				}
 			}
-
 		}
 	}
 }
