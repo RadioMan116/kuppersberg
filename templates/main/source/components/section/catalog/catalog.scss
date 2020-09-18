@@ -71,6 +71,7 @@
 		.link-pop-glossary {
 			position: relative;
 			width: calc(100%/6);
+			max-width: 52px;
 
 			.popup-prop {
 				display: none;
@@ -125,9 +126,7 @@
 		}
 
 		.icons-prop-item {
-			width: 38.94px;
-			height: 39px;
-			padding: 0 2px 4px 0;
+			padding: 0 2px 4px;
 		}
 	}
 
