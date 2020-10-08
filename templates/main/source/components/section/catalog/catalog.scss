@@ -3105,6 +3105,10 @@
 	&-category {
 		margin-bottom: 20px;
 
+		@media screen and (max-width: 767px) {
+			order: 3;
+		}
+
 		// .catalog-category__link
 		&__link {
 			color: #000;
