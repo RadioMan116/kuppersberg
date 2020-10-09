@@ -1071,6 +1071,25 @@ $(document).ready(function () {
 			}
 		})();
 	}
+	if (windowWidth2 <= 480) {
+		// Раскрывашка каталог
+		(function () {
+			let moreText = document.querySelector(".content-top .content-top__title_bottom");
+			if (moreText) {
+				console.log("есть");
+				let button = document.createElement("div");
+				let openText = "Читать подробнее",
+					closeText = "Свернуть";
+				moreText.append(button);
+				button.classList.add("js-switch", "content-top__switch");
+				button.innerHTML = openText;
+				button.onclick = function () {
+					this.parentElement.classList.toggle("active");
+					button.innerHTML == "Читать подробнее" ? button.innerHTML = closeText : button.innerHTML = openText;
+				};
+			}
+		})();
+	}
 	$(".js-comparison__select").click(function () {
 		if ($(this).hasClass("active") == true) {
 			$(".comparison__select ").removeClass("active");
