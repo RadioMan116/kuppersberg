@@ -1659,7 +1659,7 @@
 				background: url("https://icongr.am/entypo/triangle-down.svg") white calc(100% - 10px) 50%/15px no-repeat;
 			}
 
-			&:hover {
+			&:hover,&:active {
 				overflow: unset;
 
 				.comparison__item {
