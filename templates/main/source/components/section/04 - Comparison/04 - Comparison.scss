@@ -190,7 +190,7 @@
 		background: white;
 
 		&.triangle {
-			background: url("https://icongr.am/entypo/triangle-down.svg") white calc(100% - 10px) 8px/15px no-repeat;
+			background: url("https://icongr.am/entypo/triangle-down.svg") white calc(100% - 10px) 50%/15px no-repeat;
 		}
 
 		&:hover {
@@ -230,6 +230,7 @@
 		width: calc(100% + 2px);
 		margin: 0 -1px;
 		flex: 1 0 auto;
+		align-items: center;
 
 		// display: none;
 		&.active {
@@ -1655,7 +1656,7 @@
 			background: white;
 
 			&.triangle {
-				background: url("https://icongr.am/entypo/triangle-down.svg") white calc(100% - 10px) 8px/15px no-repeat;
+				background: url("https://icongr.am/entypo/triangle-down.svg") white calc(100% - 10px) 50%/15px no-repeat;
 			}
 
 			&:hover {
