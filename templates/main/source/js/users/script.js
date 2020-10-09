@@ -886,7 +886,7 @@ $(document).ready(function () {
 		$(".sidebar-right").appendTo(".product-card");
 		$(".reviews__main-link").appendTo(".product-card .reviews");
 		$(".col-md-3 .js-container-upsale").remove();
-		$('a[href="/catalog/type-nov/"]').addClass('menu__link').appendTo('.menu__list').wrap('<li class="menu__item" />')
+		$('.dropdown-menu__title.last a[href="/catalog/type-nov/"]').addClass('menu__link').appendTo('.menu__list').wrap('<li class="menu__item" />')
 		var mySwiper4 = new Swiper(".special-offers.catalog .js-container-upsale", {
 			// Optional parameters
 			// slidesPerGroup: 1,
