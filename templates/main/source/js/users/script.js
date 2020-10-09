@@ -1321,6 +1321,15 @@ $(document).ready(function () {
 					console.log("1");
 				} else {
 					console.log("2");
+					var mobileHover = function () {
+						$('.comparison__list').on('touchstart', function () {
+							$(this).trigger('hover');
+						}).on('touchend', function () {
+							$(this).trigger('hover');
+						});
+					};
+
+					mobileHover();
 					$(".thead__comparison").css({
 						"margin-bottom": ($(".products-line").innerHeight() + "px")
 					});
