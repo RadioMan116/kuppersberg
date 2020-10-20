@@ -1314,13 +1314,13 @@ $(document).ready(function () {
 				// 	$(el).height(height);
 				// });
 				if (windowWidth2 > 767) {
-					console.log($(".products-line").outerHeight(true));
+
 					$(".thead__comparison").css({
 						"height": ($(".products-line").outerHeight() + "px")
 					});
-					console.log("1");
+
 				} else {
-					console.log("2");
+
 					var mobileHover = function () {
 						$('.comparison__list').on('touchstart', function () {
 							$(this).trigger('hover');
@@ -1781,7 +1781,7 @@ $(document).ready(function () {
 				$(arrayElem[test]).addClass("test").parent().parent().removeClass("closed").addClass("only-link");
 				var activeEl = $(arrLink[test]).addClass("active");
 				$("html, body").animate({
-					scrollTop: $(activeEl).offset().top
+					scrollTop: $(activeEl).closest('.js-glossary').offset().top
 				}, 1000);
 			});
 		}
@@ -1994,13 +1994,13 @@ $(window).on("load", function () {
 			// }
 		}
 		if (windowWidth2 > 767) {
-			console.log($(".products-line").outerHeight(true));
+
 			$(".thead__comparison").css({
 				"height": ($(".products-line").outerHeight() + "px")
 			});
-			console.log("1");
+
 		} else {
-			console.log("2");
+
 			$(".thead__comparison").css({
 				"margin-bottom": ($(".products-line").innerHeight() + "px")
 			});
