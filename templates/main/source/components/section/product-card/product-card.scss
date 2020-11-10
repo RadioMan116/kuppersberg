@@ -1655,7 +1655,7 @@
 					.icon-gloss {
 						width: 14px;
 						height: 14px;
-						background: url('../images/chara__on.png') no-repeat;
+						background: url('../images/chara__on.svg') no-repeat;
 					}
 
 					.popup-gloss {
@@ -1672,7 +1672,7 @@
 						.icon-gloss {
 							width: 14px;
 							height: 14px;
-							background: url('../images/chara__off.png') no-repeat;
+							background: url('../images/chara__off.svg') no-repeat;
 						}
 
 						.popup-gloss {
@@ -2496,9 +2496,11 @@
 			top: 14px;
 			right: 124px;
 			display: flex;
-			justify-content: flex-end;
+			justify-content: flex-start;
 			width: auto;
 			position: absolute;
+			flex-wrap: wrap;
+			max-width: 164px;
 		}
 
 		.swiper-pagination-bullet {
@@ -4682,6 +4684,7 @@
 					transform: translateX(-50%);
 					left: 50%;
 					margin-bottom: 0;
+
 				}
 
 				.upsale__prev,
@@ -4839,6 +4842,7 @@
 				right: unset;
 				left: 50%;
 				transform: translateX(-50%);
+				max-width: unset;
 
 				.swiper-pagination-bullet {
 					margin-left: 0;
