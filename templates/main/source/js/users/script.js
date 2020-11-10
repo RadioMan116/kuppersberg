@@ -882,6 +882,10 @@ $(document).ready(function () {
 				$(".col-md-3 .sidebar").css("padding-bottom", "400px");
 			}
 		})();
+		$(function () {
+
+			$('.d-flex .articles__items .articles__text').matchHeight();
+		});
 	}
 	if (windowWidth2 <= 767) {
 		$(".logo").appendTo(".header__block_top .container");
