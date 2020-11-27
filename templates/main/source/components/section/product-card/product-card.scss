@@ -1025,12 +1025,13 @@
 		flex-wrap: wrap;
 		position: relative;
 		// align-items: baseline;
+		padding-top: 9px;
 	}
 
 	.sidebar-right {
 		width: calc(25% - 16px);
 		margin-left: auto;
-		padding: 45px 0 0 0;
+		padding: 55px 0 0 0;
 
 		.documentation {
 			margin: 0 0 40px 0;
@@ -1474,6 +1475,51 @@
 		.gallery__tablet {
 			display: none;
 		}
+
+		.gallery__items.swiper-container {
+			flex-direction: column;
+			padding: 0 !important;
+			margin-bottom: 8px;
+
+			.swiper-wrapper {
+				flex-direction: column;
+			}
+
+			.gallery {
+				&__el {
+					flex-basis: unset;
+					width: 100%;
+					max-width: 100%;
+					margin-bottom: 24px;
+				}
+
+				&__parent {
+					display: flex;
+					flex-direction: column;
+					background: #f8f8f8;
+					// align-items: center;
+				}
+
+				&__article {
+					padding: 12px 19px;
+					color: #212121;
+					font-family: "Roboto Condensed";
+					font-size: 18px;
+					font-weight: 400;
+					line-height: 28px;
+					text-align: left;
+				}
+
+				&__text {
+					color: #666666;
+					font-family: Arial;
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 19px;
+					text-align: center;
+				}
+			}
+		}
 	}
 
 	.tabs {
@@ -1501,7 +1547,7 @@
 
 		&__link {
 			text-decoration: none !important;
-			padding: 8px 3px 24px;
+			padding: 0px 3px 24px;
 			color: #212121;
 			font-family: "Roboto Condensed";
 			font-size: 26px;
@@ -4686,7 +4732,6 @@
 					transform: translateX(-50%);
 					left: 50%;
 					margin-bottom: 0;
-
 				}
 
 				.upsale__prev,
@@ -4804,6 +4849,43 @@
 					font-weight: 400;
 					line-height: 19px;
 					text-align: center;
+				}
+			}
+
+			.gallery__items.swiper-container {
+				.galley {
+					&__el {
+						flex-basis: unset;
+						width: 100%;
+						max-width: 100%;
+						margin-bottom: 24px;
+					}
+
+					&__parent {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						background: #f8f8f8;
+					}
+
+					&__article {
+						padding: 12px 0;
+						color: #212121;
+						font-family: "Roboto Condensed";
+						font-size: 22px;
+						font-weight: 400;
+						line-height: 28px;
+						text-align: center;
+					}
+
+					&__text {
+						color: #666666;
+						font-family: Arial;
+						font-size: 14px;
+						font-weight: 400;
+						line-height: 19px;
+						text-align: center;
+					}
 				}
 			}
 		}
